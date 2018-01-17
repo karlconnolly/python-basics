@@ -1,0 +1,50 @@
+from time import sleep
+
+#1 Print
+
+print("Chilling at the harbour")
+#Print inputs text on the screen
+
+#Output should read:
+# Chilling at the harbour
+
+#2 Sleep
+print("1")
+sleep(1)
+print("2")
+sleep(1)
+print("3")
+
+#sleep pauses the code for as long as you want
+
+#1 2 and 3 should all appear one second after each other
+
+#3 Input
+
+name = input('Karl')
+print('My name is', name,)
+
+#where it says name, it should replace it with Karl
+
+#4 While loop
+
+Karl = input('Karl')
+
+while True:
+    print("What's your name?");
+    if Karl == 'Karl':
+        print("That's right!");
+        break
+
+#5 If else
+    
+    direction = input('north')
+
+print("Go north or west?");
+if direction== "north":
+    print("You went north")
+    break
+
+elif direction== "west":
+    print("You went west")
+    break
